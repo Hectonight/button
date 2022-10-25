@@ -1,0 +1,38 @@
+/* Styles for the content class */
+.content {
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: 30%; /* moves position 30% down the page from the top */
+}
+
+/* Styles for all buttons */
+button {
+  border: none;
+  padding: 15px 25px; /* Area between content in the element and the end of the element */
+  font-size: 50px;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 9px #999;
+  cursor: pointer; /* Changes cursor to pointer when hovering over element */
+}
+
+/* Styles for all elements with id="count" */
+#counter {
+  color: #fff; /* Sets text color */
+  background-color: #4caf50;
+}
+
+/* Style when an element with id="count" is being pressed and when it is hovered over */
+#count:active,
+#count:hover {
+  background-color: #3e8e41; /* Sets background color */
+}
+
+/* Style when a button is being pressed */
+button:active {
+  box-shadow: 0 5px #666;
+
+  /* Add 4px to the y position (larger y further down) */
+  transform: translateY(4px);
+}
